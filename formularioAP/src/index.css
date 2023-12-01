@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(45deg, #bf7e9f, #ca3169, #ac7ca8, #6f42c1);
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 20s ease infinite;
+}
+
+@keyframes cambiar {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.form-control:focus {
+  border-color: #6f42c1 !important;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5) !important;
+}
+
+.custom-button {
+  background-color: #6f42c1 !important;
+  border-color: #6f42c1 !important;
+}
+
+.custom-button:active {
+  background-color: #8562c7 !important;
+}
+
+.custom-checkbox {
+  border-color: #6f42c1 !important;
+  background-color: white;
+}
+
+.custom-checkbox:checked {
+  border-color: #6f42c1 !important;
+  background-color: #6f42c1 !important;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5) !important;
+}
+.custom-checkbox:focus {
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.5) !important;
+}
+
+input {
+  font-size: 14px !important;
+}
+
+label {
+  font-size: 14.5px !important;
+}
