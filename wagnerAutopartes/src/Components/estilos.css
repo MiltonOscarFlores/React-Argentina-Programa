@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: url("./fonts/ProximaNova-Black.eot");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"),
+    url("./fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/ProximaNova-Black.woff2") format("woff2"),
+    url("./fonts/ProximaNova-Black.woff") format("woff"),
+    url("./fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proximaNovafina";
+  src: url("./fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: lighter;
+}
+
+body {
+  font-family: "proximaNovafina", sans-serif;
+  background-color: #ededed;
+}
+
+.contenedorTitulo {
+  border: 1px solid black;
+  background: rgb(251, 240, 89);
+  border-bottom: 1px solid #d5d5d5;
+  color: #122533;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: start;
+  gap: 20px;
+  font-family: "ProximaNova";
+}
+
+.h5 {
+  color: #00a650;
+}
+
+h6 {
+  font-weight: lighter;
+  margin-top: -12px;
+}
+
+input {
+  margin-left: 100px;
+  width: 42%;
+  height: 35px;
+  border-radius: 10px;
+}
+.nombreProducto {
+  color: black;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  margin-right: 7em;
+  width: 100%;
+}
+
+.precio {
+  font-size: 2.5em;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: -10px;
+}
+
+.cuotas {
+  font-size: 18px;
+  margin-top: -50px;
+  color: #3483fa;
+}
+
+.estadoProducto {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+.contenedorMain {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+  background-color: #fff;
+  margin: 50px;
+  border-radius: 12px;
+}
+
+.columna-imagen {
+  display: grid;
+  place-items: center;
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+
+.columna-datos {
+  display: grid;
+  align-items: start;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 2em;
+  margin: 2em;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  padding-left: 35px;
+}
+
+.descripcion {
+  font-weight: 500;
+}
+
+/* Estilos para el botón comprar */
+.botonComprar {
+  background-color: #007bff; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+  font-size: 0.8em; /* Tamaño de fuente */
+  border: none; /* Elimina el borde */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  align-self: start;
+  margin-top: 12px;
+}
+
+.botonComprar:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Contenedor para Descripción y Botón */
+.contenedorDescripcionBoton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+span {
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
