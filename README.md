@@ -4,8 +4,10 @@
 **Conceptos y tecnologias aprendidos:** `useState`, `useEffect`, `Material UI`,
 
 1 - 
+[CLICK HERE](https://autoparteswagner.netlify.app).
+
+![autipartes](autopartes.png)
+
+2 -
 [CLICK HERE](https://react-saludoapp.netlify.app).
-
-![preview1](autopartes.png)
-
-
+![saludo](saludo.png)
