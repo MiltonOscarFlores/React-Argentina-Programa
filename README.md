@@ -1,17 +1,17 @@
 # Proyectos realizados durante la diplomatura de desarrollador web React.js de Argentina Programa 4.0
 
 
-**Conceptos y tecnologias que aprendi e implemente:** `Jsx`, `useState`, `useEffect`, `Material UI`, `Bootstrap`,
+**Conceptos y tecnologias aprendidos:** `Jsx`, `useState`, `useEffect`, `Material UI`, `Bootstrap`,
 
-1 -
-[CLICK HERE](https://react-saludoapp.netlify.app).
+1 - 
+[CLICK HERE](https://formularioargentinaprograma.netlify.app/).
 
-![saludo](formulario.png)
+![formulario](formulario.png)
 
 2 - 
 [CLICK HERE](https://autoparteswagner.netlify.app).
 
-![autipartes](autopartes.png)
+![autopartes](autopartes.png)
 
 3 -
 [CLICK HERE](https://react-saludoapp.netlify.app).
